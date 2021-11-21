@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="706.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bd.edu.seu.ReservedDetails">
+   <children>
+      <TableView fx:id="ReservedTable" layoutX="18.0" layoutY="14.0" prefHeight="338.0" prefWidth="580.0" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="15.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="53.0" text="ID" />
+          <TableColumn fx:id="sourceColumn" prefWidth="67.0" text="Source" />
+            <TableColumn fx:id="destinationColumn" prefWidth="85.0" text="Destination" />
+            <TableColumn fx:id="FLnameColumn" text="Flight Name" />
+            <TableColumn fx:id="FLcodeColumn" prefWidth="87.0" text="Flight Code" />
+            <TableColumn fx:id="dateColumn" prefWidth="63.0" text="Date" />
+            <TableColumn fx:id="timeColumn" prefWidth="69.0" text="Time" />
+            <TableColumn fx:id="classColumn" prefWidth="45.0" text="Class" />
+            <TableColumn fx:id="SM_IColumn" prefWidth="35.0" text="SM_I" />
+            <TableColumn fx:id="seatColumn" prefWidth="48.0" text="Seats" />
+            <TableColumn fx:id="payedColumn" prefWidth="53.0" text="Payed" />
+        </columns>
+      </TableView>
+      <Button layoutX="532.0" layoutY="424.0" mnemonicParsing="false" onAction="#back" text="Back">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="28.0" layoutY="426.0" mnemonicParsing="false" onAction="#homePage" text="Home Page">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

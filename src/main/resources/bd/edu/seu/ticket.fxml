@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bd.edu.seu.Ticket">
+   <children>
+      <Button layoutX="414.0" layoutY="39.0" mnemonicParsing="false" onAction="#print" prefHeight="29.0" prefWidth="60.0" text="Print">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="42.0" layoutY="42.0" text="ID">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idField" layoutX="96.0" layoutY="34.0" prefHeight="35.0" prefWidth="149.0" />
+      <TextArea fx:id="areaField" editable="false" layoutX="27.0" layoutY="87.0" prefHeight="326.0" prefWidth="577.0" />
+      <Button layoutX="544.0" layoutY="421.0" mnemonicParsing="false" onAction="#back" text="Payment">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="49.0" layoutY="423.0" mnemonicParsing="false" onAction="#homePage" text="Home Page">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

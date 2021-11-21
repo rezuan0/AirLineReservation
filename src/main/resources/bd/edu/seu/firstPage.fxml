@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bd.edu.seu.FirstPage">
+   <children>
+      <Label layoutX="64.0" layoutY="60.0" prefHeight="89.0" prefWidth="552.0" text="Welcome To Airline Resrvation System">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="360.0" layoutY="200.0" mnemonicParsing="false" onAction="#adminLogIn" prefHeight="31.0" prefWidth="127.0" text="Admin">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="128.0" layoutY="200.0" mnemonicParsing="false" onAction="#BookingView" prefHeight="31.0" prefWidth="138.0" text="Booking Seat">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

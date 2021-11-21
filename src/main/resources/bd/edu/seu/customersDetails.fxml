@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bd.edu.seu.CustomersDetails">
+   <children>
+      <TableView fx:id="AirLineTable" layoutX="18.0" layoutY="14.0" prefHeight="338.0" prefWidth="580.0" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="15.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="76.0" text="ID" />
+          <TableColumn fx:id="fnameColumn" prefWidth="122.0" text="First Name" />
+            <TableColumn fx:id="lnameColumn" prefWidth="122.0" text="Last Name" />
+            <TableColumn fx:id="phoneColumn" prefWidth="88.0" text="Phone" />
+            <TableColumn fx:id="emailColumn" prefWidth="200.0" text="Email" />
+        </columns>
+      </TableView>
+      <Button layoutX="529.0" layoutY="421.0" mnemonicParsing="false" onAction="#back" text="Back">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="27.0" layoutY="421.0" mnemonicParsing="false" onAction="#homePage5" text="Home Page">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
